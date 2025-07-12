@@ -42,7 +42,7 @@ This repository contains a fully modular and cross-platform setup for configurin
 
 ---
 
-## 🛠️ ## ⚙️ Installation
+## ⚙️ Installation
 
 Clone and apply the WindowLinuxConfig setup in your terminal:
 
