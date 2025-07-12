@@ -42,8 +42,26 @@ This repository contains a fully modular and cross-platform setup for configurin
 
 ---
 
-## 🛠️ Setup (Clone & Apply)
+## 🛠️ ## ⚙️ Installation
+
+Clone and apply the WindowLinuxConfig setup in your terminal:
 
 ```bash
-git clone git@github.com:Damianworkk/windowlinuxconfig.git
+# Clone the repository
+git clone https://github.com/Damianworkk/windowlinuxconfig.git
+
+# Navigate into the project directory
 cd windowlinuxconfig
+
+# Apply .bashrc and optional Starship prompt config
+cp .bashrc ~/.bashrc
+mkdir -p ~/.config && cp starship.toml ~/.config/starship.toml
+
+# Reload terminal configuration
+source ~/.bashrc
+
+# (Optional) Install Starship prompt
+curl -sS https://starship.rs/install.sh | sh
+
+# (Optional) Install Neovim if using its config
+pkg install neovim -y
