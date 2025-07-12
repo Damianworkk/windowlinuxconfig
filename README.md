@@ -1,2 +1,1 @@
-# windowlinuxconfig
-📜 Advanced English Description (For GitHub Repo)  > Cross-Platform Terminal &amp; Shell Configuration for Windows &amp; Linux Developers. This repository contains my personal dotfiles and configurations tailored for an efficient development environment on both Windows (PowerShell, CMD, Windows Terminal) and Linux--
+Cross-Platform Terminal &amp; Shell Configuration for Windows &amp; Linux Developers. This repository contains my personal dotfiles and configurations tailored for an efficient development environment on both Windows (PowerShell, CMD, Windows Terminal) and Linux--
